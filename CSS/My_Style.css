@@ -1,44 +1,46 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     font-family: Century Gothic;
 }
+
 html {
     height: 100%;
     overflow: hidden;
 }
+
 /* For Background of Site; linear line gets rid of title's default borders */
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(nebula.jpg);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(nebula.jpg);
     height: 100vh;
     overflow: hidden;
     background-size: cover;
     background-position: center;
 }
-body{
+
+body {
     perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
-    
+
 }
 
 /* Puts Index list on right side */
-ul{
+ul {
     float: right;
     list-style-type: none;
     margin-top: 20px;
 }
 
 /* Puts list from left to right in one line */
-ul li{
+ul li {
     display: inline-block;
 }
 
 /* Makes the list white and borded. Also adds transition effect */
-ul li a{
+ul li a {
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
@@ -47,78 +49,93 @@ ul li a{
 }
 
 /* When hovering over list, now will be white/highlighted */
-ul li a:hover{
+ul li a:hover {
     background-color: #fff;
     color: #000;
 }
+
 /* highlights homepage automatically */
-ul li.active a{
+ul li.active a {
     background-color: #fff;
     color: #000;
 }
+
 /* Should align PFP to top left with Index list. Makes border rounded */
-.pfp img{
+.pfp img {
     float: left;
     width: 150px;
     height: auto;
     border-radius: 50%;
 }
 
-.main{
+.main {
     max-width: 1200px;
     margin: auto;
 }
 
 /* centers title */
-.content{
-   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-/* Everything below is just for text size or position */
-.title h1{
-    color: white;
-    font-size: 70px;
-}
-.title1 h1{
-    color: white;
-    font-size: 70px;
-}
-.title1{
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.content h2{
+
+/* Everything below is just for text size or position */
+.title h1 {
+    color: white;
+    font-size: 40px;
+    padding-top: 0.5%;
+}
+
+.title1 h1 {
+    color: white;
+    font-size: 40px;
+    padding: 0.5%;
+}
+
+.title1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h2 {
     color: white;
     font-size: 40px;
     padding-top: 20%;
 }
-.content h3{
+
+.content h3 {
     color: white;
     font-size: 30px;
 }
-p{
-    color: white;
-    font-size: 22px;
-    border: transparent;
+
+.content h1 {
+    padding-top: 0.5%;
 }
-.content li{
+
+p {
     color: white;
     font-size: 22px;
     border: transparent;
 }
 
-form{ 
+.content li {
+    color: white;
+    font-size: 22px;
+    border: transparent;
+}
+
+form {
     color: white;
     font-size: 22px;
 }
+
 images {
     width: 20%;
-    
+
 }
 
 #svg {
