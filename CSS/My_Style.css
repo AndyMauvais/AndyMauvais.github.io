@@ -95,6 +95,7 @@ ul li.active a{
 .content h2{
     color: white;
     font-size: 40px;
+    padding-top: 20%;
 }
 .content h3{
     color: white;
@@ -103,6 +104,7 @@ ul li.active a{
 p{
     color: white;
     font-size: 22px;
+    border: transparent;
 }
 .content li{
     color: white;
@@ -113,4 +115,12 @@ p{
 form{ 
     color: white;
     font-size: 22px;
+}
+images {
+    width: 20%;
+    
+}
+
+#svg {
+    padding: 0;
 }
